@@ -1,0 +1,5 @@
+# Ignore all .vcd files
+*.vcd
+
+# Ignore all .out files
+*.out
