@@ -6,7 +6,7 @@ reg A, B, C, D;
 wire F_data, F_beh;
 
 // Instantiate DUTs
-combination DUT (
+combination2 DUT (
     .A(A), .B(B), .C(C), .D(D),
     .F(F_data)
 );
