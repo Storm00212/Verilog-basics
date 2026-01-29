@@ -25,7 +25,7 @@ initial begin
     // Optional: dump specific signals only
     // $dumpvars(1, A, B, C, D, F_data, F_beh);
 
-    $display("A B C D | Dataflow Behavioral");
+    $display("A B C D | Dataflow");
     $display("-------------------------------");
 
     for (i = 0; i < 16; i = i + 1) begin
